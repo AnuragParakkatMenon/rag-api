@@ -1,7 +1,9 @@
 fastapi
 uvicorn
-faiss-cpu
-sentence-transformers
-pypdf
 python-multipart
+pydantic
 openai
+langchain
+langchain-community
+faiss-cpu==1.7.4
+tiktoken
