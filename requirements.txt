@@ -8,3 +8,4 @@ langchain-community
 langchain-openai
 faiss-cpu==1.13.2
 tiktoken
+pypdf
