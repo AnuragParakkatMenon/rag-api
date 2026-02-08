@@ -23,7 +23,8 @@ app = FastAPI()
 # Add this CORS middleware
 origins = [
     "http://localhost:5173",  # your dev frontend
-    "https://rag-ui-production.up.railway.app/"  # production frontend
+    "https://rag-ui-production.up.railway.app/",  # production frontend
+    "https://rag-ui-production.up.railway.app"
 ]
 
 app.add_middleware(
